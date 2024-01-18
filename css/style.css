@@ -48,3 +48,71 @@ h1{
 #restart:hover{
     background-color: #cdc7b4;
 }
+
+.cell {
+    background-color: #BBADA0;
+    box-sizing: border-box;
+    aspect-ratio: 1;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cell:hover{
+    background-color: #CDC1B4;
+}
+
+.cell-flag{
+    background-image: url(../img/red-flag.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell-bug,
+.cell-bug:hover{
+    background-color: #f63b47;
+    background-image: url("../img/mine.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell-num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.cell-empty {
+    background-color: #cdc7b4; 
+}
+
+.cell-num-1{
+    background-color:  #EEE4DA;
+}
+.cell-num-2{
+    background-color:  #EDE0C8;
+}
+.cell-num-3{
+    background-color:  #F2B179;
+}
+.cell-num-4{
+    background-color:  #F59563;
+}
+.cell-num-5{
+    background-color:  #F67C5F;
+}
+.cell-num-6{
+    background-color:  #F65E3B;
+}
+.cell-num-7{
+    background-color:  #f64e3b ;
+}
+
+.cell-num-8{
+    background-color:  #f63f3b;
+}
+
+#flag-number{
+    margin-top: 2%;
+}
