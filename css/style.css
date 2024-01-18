@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'ClearSans-Bold';
+    src: url('../font/clear-sans.bold.ttf');
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'ClearSans-Bold';
+    background-color: #FAF8EF;
+}
+
+h1{
+    margin: 2%;
+    font-size: 3vw;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-message-text{
+    color: #f63b47;
+    font-weight: bold;
+    font-size:  2em;
+    text-transform: uppercase;
+}
+
+#game-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2px;
+    box-sizing: border-box;
+    width: 30%;
+    margin-top: 2%;
+}
