@@ -38,3 +38,13 @@ h1{
     width: 30%;
     margin-top: 2%;
 }
+
+#restart{
+    background-color: #BBADA0;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+#restart:hover{
+    background-color: #cdc7b4;
+}
