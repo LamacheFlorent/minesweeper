@@ -22,7 +22,6 @@ const createGrid = () => {
         }
     }
 
-    console.log(grid);
     return grid;
 };
 

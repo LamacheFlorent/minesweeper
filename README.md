@@ -8,14 +8,14 @@ I only used html, css and javascript.
 I decided to work on my javascript code by separating it into several modules. Each module will have its own functionalities for improved maintainability and code readability
 
 
-## main.js
+### main.js
 is the main module, which initializes the application and uses the various modules.
 
-## createGrid.js 
+### createGrid.js 
 is the module that creates the game grid.
 
-## addGridElement.js 
+### addGridElement.js 
 adds the elements required for the game (mines, numbers, etc.).
 
-## addEvent.js 
+### addEvent.js 
 manages interaction with the user interface.

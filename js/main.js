@@ -1,6 +1,6 @@
 import createGrid from './createGrid.js';
 import addGridElement from './addGridElement.js';
-//import addEvent from './addEvent.js';
+import addEvent from './addEvent.js';
 
 try {
     // Create grid
@@ -10,8 +10,7 @@ try {
     addGridElement(grid);
 
     // Add events
-    //addEvent(grid);
-    console.table(grid);
+    addEvent(grid);
 
     // Select restart button
     const restartButton = document.getElementById('restart');
