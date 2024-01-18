@@ -19,3 +19,5 @@ adds the elements required for the game (mines, numbers, etc.).
 
 ### addEvent.js 
 manages interaction with the user interface.
+
+![Texte alternatif](/home/florent/Images/Captures d’écran/minesweeper.png "Minesweeper").
