@@ -1,5 +1,5 @@
 import createGrid from './createGrid.js';
-//import addGridElement from './addGridElement.js';
+import addGridElement from './addGridElement.js';
 //import addEvent from './addEvent.js';
 
 try {
@@ -7,7 +7,7 @@ try {
     const grid = createGrid();
 
     // Add elements in the grid (mine, number around the mine)
-    //addGridElement(grid);
+    addGridElement(grid);
 
     // Add events
     //addEvent(grid);
